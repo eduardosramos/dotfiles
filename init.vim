@@ -3,8 +3,8 @@
 " version: 12.0.0
 
 " To use fancy symbols wherever possible, change this setting from 0 to 1
-" and use a font from https://github.com/ryanoasis/nerd-fonts in your terminal 
-" (if you aren't using one of those fonts, you will see funny characters here. 
+" and use a font from https://github.com/ryanoasis/nerd-fonts in your terminal
+" (if you aren't using one of those fonts, you will see funny characters here.
 " Turst me, they look nice when using one of those fonts).
 let fancy_symbols_enabled = 0
 
@@ -41,9 +41,9 @@ if vim_plug_just_installed
     :execute 'source '.fnameescape(vim_plug_path)
 endif
 
-" Obscure hacks done, you can now modify the rest of the config down below 
+" Obscure hacks done, you can now modify the rest of the config down below
 " as you wish :)
-" IMPORTANT: some things in the config are vim or neovim specific. It's easy 
+" IMPORTANT: some things in the config are vim or neovim specific. It's easy
 " to spot, they are inside `if using_vim` or `if using_neovim` blocks.
 
 " ============================================================================
@@ -61,12 +61,19 @@ endif
 " Now the actual plugins:
 
 " Override configs by directory
+" Esta extensão substitui as configurações do vim usando as configurações personalizadas armazenadas nos arquivos .vim.custom.
 Plug 'arielrossanigo/dir-configs-override.vim'
 " Code commenter
+
+" Comentários
 Plug 'scrooloose/nerdcommenter'
+
 " Better file browser
+" O NERDTree é um explorador de sistemas de arquivos para o editor Vim.
 Plug 'scrooloose/nerdtree'
+
 " Class/module browser
+"
 Plug 'majutsushi/tagbar'
 " Search results counter
 Plug 'vim-scripts/IndexedSearch'
@@ -135,7 +142,7 @@ Plug 'myusuf3/numbers.vim'
 " Nice icons in the file explorer and file type status line.
 Plug 'ryanoasis/vim-devicons'
 
-" Plugin python 
+" Plugin python
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 if using_vim
@@ -145,7 +152,7 @@ if using_vim
     Plug 'vim-scripts/matchit.zip'
 endif
 
-" Code searcher. If you enable it, you should also configure g:hound_base_url 
+" Code searcher. If you enable it, you should also configure g:hound_base_url
 " and g:hound_port, pointing to your hound instance
 " Plug 'mattn/webapi-vim'
 " Plug 'jfo/hound.vim'
@@ -164,7 +171,7 @@ endif
 " ============================================================================
 " Vim settings and mappings
 " You can edit them as you wish
- 
+
 if using_vim
     " A bunch of things that are set by default in neovim, but not in vim
 
@@ -219,7 +226,7 @@ set nu
 let mapleader = ','
 
 " remove ugly vertical lines on window division
-set fillchars+=vert:\ 
+set fillchars+=vert:\
 
 " use 256 colors when possible
 if has('gui_running') || using_neovim || (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256')
@@ -246,7 +253,7 @@ set wildmode=list:longest
 ca w!! w !sudo tee "%"
 
 " tab navigation mappings
-map tt :tabnew 
+map tt :tabnew
 map <M-Right> :tabn<CR>
 imap <M-Right> <ESC>:tabn<CR>
 map <M-Left> :tabp<CR>
@@ -263,7 +270,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " fix problems with uncommon shells (fish, xonsh) and plugins running commands
 " (neomake, ...)
-set shell=/bin/bash 
+set shell=/bin/bash
 
 " Ability to add python breakpoints
 " (I use ipdb, but you can change it to whatever tool you use for debugging)
@@ -382,7 +389,7 @@ nmap ,D :tab split<CR>:call jedi#goto()<CR>
 " Ack.vim ------------------------------
 
 " mappings
-nmap ,r :Ack 
+nmap ,r :Ack
 nmap ,wr :execute ":Ack " . expand('<cword>')<CR>
 
 " Window Chooser ------------------------------
