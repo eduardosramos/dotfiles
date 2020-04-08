@@ -26,7 +26,10 @@ Plug 'junegunn/vim-github-dashboard'
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 
 " This plugin will allow Vim to utilize multiple cursors simultaneously.
-Plug 'paradigm/vim-multicursor'
+" Plug 'paradigm/vim-multicursor'
+
+" Bringing Sublime Text's awesome multiple selection feature into Vim,
+Plug 'terryma/vim-multiple-cursors'
 
 " vimtex is a Vim plugin that provides support for writing LaTeX documents.
 Plug 'lervag/vimtex'
