@@ -14,7 +14,7 @@ endtry
 call plug#begin('~/.vim/plugged')
 
 " The NERDTree is a file system explorer for the Vim editor
-"Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 
 " A simple, easy-to-use Vim alignment plugin.
 Plug 'junegunn/vim-easy-align'
@@ -47,6 +47,9 @@ Plug 'vim-airline/vim-airline-themes'
 " Plugin for CSV files
 Plug 'chrisbra/csv.vim'
 
+" Plugin The jedi autocompletion library for VIM.
+Plug 'davidhalter/jedi-vim'
+
 call plug#end()
 set shell=/bin/zsh
 
@@ -75,6 +78,8 @@ let g:multi_cursor_quit_key            = '<Esc>'
 autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer = 'mupdf-gl'
 
+let g:livepreview_cursorhold_recompile = 0
+
 map I :! pdflatex %<CR><C0R>
 map S :! evince $(echo % \| sed 's/tex$/pdf/') & bg<CR><CR>
 
@@ -84,4 +89,5 @@ map S :! evince $(echo % \| sed 's/tex$/pdf/') & bg<CR><CR>
 " Mapeamento: Seleciona todo o texto.
 map <C-a> <esc>ggVG<CR>
 
-
+" Configuração do NERDTree
+autocmd vimenter * NERDTree
