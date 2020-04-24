@@ -53,6 +53,10 @@ Plug 'davidhalter/jedi-vim'
 " FZF Vim integration (https://github.com/junegunn/fzf/blob/master/README-VIM.md)
 Plug 'junegunn/fzf'
 
+" Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. 
+" The plugin provides mappings to easily delete, change and add such surroundings in pairs.
+Plug 'tpope/vim-surround'
+
 call plug#end()
 set shell=/bin/zsh
 
@@ -152,4 +156,14 @@ let g:fzf_colors =
 " - When set, CTRL-N and CTRL-P will be bound to 'next-history' and
 "   'previous-history' instead of 'down' and 'up'.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
+set number
 
+" Configura filtro :Filter command.
+command! -nargs=? Filter let @a='' | execute 'g/<args>/y A' | new | setlocal bt=nofile | put! a
+
+" Pega a saída do comando acima e direciona para uma nova tela:
+nnoremap <silent> <F3> :redir @a<CR>:g//<CR>:redir END<CR>:new<CR>:put! a<CR>
+
+" Seta a verificação ortográfica pt_BR
+set spelllang=pt_BR
+set spell
