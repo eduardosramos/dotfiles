@@ -87,8 +87,9 @@ let g:livepreview_previewer = 'mupdf-gl'
 
 let g:livepreview_cursorhold_recompile = 0
 
-map I :! pdflatex %<CR><C0R>
-map S :! evince $(echo % \| sed 's/tex$/pdf/') & bg<CR><CR>
+" Tive que retirar por enquanto. 27/04/2020
+" map I :! pdflatex %<CR><C0R>
+" map S :! evince $(echo % \| sed 's/tex$/pdf/') & bg<CR><CR>
 
 " Plugin Auto Save (deu merda quando rodei uma macro)
 "let g:auto_save = 1  " enable AutoSave on Vim startup
@@ -165,5 +166,10 @@ command! -nargs=? Filter let @a='' | execute 'g/<args>/y A' | new | setlocal bt=
 nnoremap <silent> <F3> :redir @a<CR>:g//<CR>:redir END<CR>:new<CR>:put! a<CR>
 
 " Seta a verificação ortográfica pt_BR
-set spelllang=pt_BR
-set spell
+" set spelllang=pt_BR
+" set spell
+
+" Configura tabulação dos arquivos Yaml e Python
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab
+
