@@ -58,7 +58,8 @@ Plug 'junegunn/fzf'
 Plug 'tpope/vim-surround'
 
 call plug#end()
-set shell=/bin/zsh
+
+" set shell=/bin/zsh
 
 " Tema durant
 let g:airline_theme='durant'
@@ -160,10 +161,10 @@ let g:fzf_history_dir = '~/.local/share/fzf-history'
 set number
 
 " Configura filtro :Filter command.
-command! -nargs=? Filter let @a='' | execute 'g/<args>/y A' | new | setlocal bt=nofile | put! a
+"" command! -nargs=? Filter let @a='' | execute 'g/<args>/y A' | new | setlocal bt=nofile | put! a
 
 " Pega a saída do comando acima e direciona para uma nova tela:
-nnoremap <silent> <F3> :redir @a<CR>:g//<CR>:redir END<CR>:new<CR>:put! a<CR>
+""  "nnoremap <silent> <F3> :redir @a<CR>:g//<CR>:redir END<CR>:new<CR>:put! a<CR>
 
 " Seta a verificação ortográfica pt_BR
 " set spelllang=pt_BR
