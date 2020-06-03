@@ -60,20 +60,15 @@ endif
 
 " Now the actual plugins:
 
+" multiple-cursors
+Plug 'terryma/vim-multiple-cursors'
 " Override configs by directory
-" Esta extensão substitui as configurações do vim usando as configurações personalizadas armazenadas nos arquivos .vim.custom.
 Plug 'arielrossanigo/dir-configs-override.vim'
 " Code commenter
-
-" Comentários
 Plug 'scrooloose/nerdcommenter'
-
 " Better file browser
-" O NERDTree é um explorador de sistemas de arquivos para o editor Vim.
 Plug 'scrooloose/nerdtree'
-
 " Class/module browser
-"
 Plug 'majutsushi/tagbar'
 " Search results counter
 Plug 'vim-scripts/IndexedSearch'
@@ -88,17 +83,22 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " Pending tasks list
 Plug 'fisadev/FixedTaskList.vim'
+
 " Async autocompletion
-if using_neovim && vim_plug_just_installed
-    Plug 'Shougo/deoplete.nvim', {'do': ':autocmd VimEnter * UpdateRemotePlugins'}
-else
-    Plug 'Shougo/deoplete.nvim'
-endif
+
+" if using_neovim && vim_plug_just_installed
+"    Plug 'Shougo/deoplete.nvim', {'do': ':autocmd VimEnter * UpdateRemotePlugins'}
+"else
+"    Plug 'Shougo/deoplete.nvim'
+"endif
+
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 " Python autocompletion
-Plug 'deoplete-plugins/deoplete-jedi'
+
+" Plug 'deoplete-plugins/deoplete-jedi'
 " Completion from other opened files
+
 Plug 'Shougo/context_filetype.vim'
 " Just to add the python go-to-definition and similar features, autocompletion
 " from this plugin is disabled
@@ -131,6 +131,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 " Yank history navigation
 Plug 'vim-scripts/YankRing.vim'
+
+" A Vim Plugin for Lively Previewing LaTeX PDF Output
+Plug 'xuhdev/vim-latex-live-preview'
+
+Plug 'donRaphaco/neotex', { 'for': 'tex' }
 " Linters
 Plug 'neomake/neomake'
 " Relative numbering of lines (0 is the current line)
@@ -144,6 +149,10 @@ Plug 'ryanoasis/vim-devicons'
 
 " Plugin python
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+
+Plug 'ctrlpvim/ctrlp.vim'
+
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 if using_vim
     " Consoles as buffers (neovim has its own consoles as buffers)
@@ -163,11 +172,23 @@ call plug#end()
 " ============================================================================
 " Install plugins the first time vim runs
 
+" https://medium.com/@jimeno0/search-in-files-and-content-in-vim-neovim-8c1bf74ad5e9
+nmap     <C-F>f <Plug>CtrlSFPrompt
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
+
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] "Hide files in .gitignore
+let g:ctrlp_show_hidden = 1                                                         "Show dotfiles
+
 if vim_plug_just_installed
     echo "Installing Bundles, please ignore key map error messages"
     :PlugInstall
 endif
 
+" TeX
+"
+ autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = 'evince-previewer'
 " ============================================================================
 " Vim settings and mappings
 " You can edit them as you wish
@@ -195,12 +216,12 @@ if using_vim
 
     " better backup, swap and undos storage for vim (nvim has nice ones by
     " default)
-    set directory=~/.vim/dirs/tmp     " directory to place swap files in
+    set directory=~/.config/nvim/dirs/tmp     " directory to place swap files in
     set backup                        " make backup files
-    set backupdir=~/.vim/dirs/backups " where to put backup files
+    set backupdir=~/.config/nvim/dirs/backups " where to put backup files
     set undofile                      " persistent undos - undo after you re-open the file
-    set undodir=~/.vim/dirs/undos
-    set viminfo+=n~/.vim/dirs/viminfo
+    set undodir=~/.config/nvim/dirs/undos
+    set viminfo+=n~/.config/nvim/dirs/viminfo
     " create needed directories if they don't exist
     if !isdirectory(&backupdir)
         call mkdir(&backupdir, "p")
@@ -239,15 +260,17 @@ else
 endif
 
 " needed so deoplete can auto select the first suggestion
-set completeopt+=noinsert
+" set completeopt+=noinsert
+
 " comment this line to enable autocompletion preview window
 " (displays documentation related to the selected completion option)
 " disabled by default because preview makes the window flicker
+
 set completeopt-=preview
 
 " autocompletion of files and commands behaves like shell
 " (complete only the common part, list the options that match)
-set wildmode=list:longest
+"" set wildmode=list:longest
 
 " save as sudo
 ca w!! w !sudo tee "%"
@@ -330,10 +353,10 @@ map <F2> :TaskList<CR>
 autocmd! BufWritePost * Neomake
 
 " Check code as python3 by default
-let g:neomake_python_python_maker = neomake#makers#ft#python#python()
-let g:neomake_python_flake8_maker = neomake#makers#ft#python#flake8()
-let g:neomake_python_python_maker.exe = 'python3 -m py_compile'
-let g:neomake_python_flake8_maker.exe = 'python3 -m flake8'
+"let g:neomake_python_python_maker = neomake#makers#ft#python#python()
+"let g:neomake_python_flake8_maker = neomake#makers#ft#python#flake8()
+"let g:neomake_python_python_maker.exe = 'python3 -m py_compile'
+"let g:neomake_python_flake8_maker.exe = 'python3 -m flake8'
 
 " Disable error messages inside the buffer, next to the problematic line
 let g:neomake_virtualtext_current_error = 0
@@ -364,9 +387,9 @@ nmap ,c :Commands<CR>
 " Deoplete -----------------------------
 
 " Use deoplete.
-let g:deoplete#enable_at_startup = 1
-let g:deoplete#enable_ignore_case = 1
-let g:deoplete#enable_smart_case = 1
+"let g:deoplete#enable_at_startup = 1
+"let g:deoplete#enable_ignore_case = 1
+"let g:deoplete#enable_smart_case = 1
 " complete with words from any opened file
 let g:context_filetype#same_filetypes = {}
 let g:context_filetype#same_filetypes._ = '_'
@@ -374,7 +397,7 @@ let g:context_filetype#same_filetypes._ = '_'
 " Jedi-vim ------------------------------
 
 " Disable autocompletion (using deoplete instead)
-let g:jedi#completions_enabled = 0
+"" let g:jedi#completions_enabled = 0
 
 " All these mappings work only for python code:
 " Go to definition
@@ -420,7 +443,7 @@ highlight SignifySignChange cterm=bold ctermbg=237  ctermfg=227
 " Fix to let ESC work as espected with Autoclose plugin
 " (without this, when showing an autocompletion window, ESC won't leave insert
 "  mode)
-let g:AutoClosePumvisible = {"ENTER": "\<C-Y>", "ESC": "\<ESC>"}
+"" let g:AutoClosePumvisible = {"ENTER": "\<C-Y>", "ESC": "\<ESC>"}
 
 " Yankring -------------------------------
 
@@ -470,3 +493,18 @@ endif
 if filereadable(expand(custom_configs_path))
   execute "source " . custom_configs_path
 endif
+
+" Markdown mapeamentos:
+" normal/insert
+"<Plug>MarkdownPreview
+"<Plug>MarkdownPreviewStop
+"<Plug>MarkdownPreviewToggle
+
+" example
+nmap <C-s> <Plug>MarkdownPreview
+nmap <M-s> <Plug>MarkdownPreviewStop
+nmap <C-p> <Plug>MarkdownPreviewToggle
+
+
+
+
