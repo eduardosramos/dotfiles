@@ -75,34 +75,33 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 **Tecnologias Utilizadas:** Solman, ECC, BusinessObjects e metodologias e gerenciamento de projetos específicos para ambiente SAP. Aqui pude contribuir no suporte BASIS aos produtos SAP ECC, SAP BPC, SPP e BusinessObjects;
 
 ### Extend.Net Serviços de Informática LTDA - Desde jun/2007 até jan/2012.
-**Cargo:** Analista de Suporte Pleno.
-**Atividade:** Atuei na administração de sistemas de banco de dados, versionamento de códigos, sistemas web e BI.
+**Cargo:** Analista de Suporte Pleno.  
+**Atividade:** Atuei na administração de sistemas de banco de dados, versionamento de códigos, sistemas web e BI.  
 **Tecnologias Utilizadas:** BusinessObjects, Oracle Linux. Sistemas de banco de dados (Oracle, DB2, Mysql) e ETL para construção de relatórios e tomada de decisões. Ambiente Windows, Linux, SAP.
 
 ### CTZ Consultoria Serviços de Informática LTDA - Desde dez/2005 até dez/2006.
-**Cargo:** Operador de rede nível IV. 
-**Atividade:** Suporte aos sistemas *nix da autarquia Federal INPI.
+**Cargo:** Operador de rede nível IV.   
+**Atividade:** Suporte aos sistemas *nix da autarquia Federal INPI.  
 **Tecnologias Utilizadas:** GNU/Linux, Jboss, Solaris, Monitoring (MRTG) e Redes.
 
 ### DATAGRUPO Comércio e Sistemas - Desde abr/2004 até dez/2005.
-**Cargo:** Analista de Suporte.
-**Atividade:** Suporte aos sistemas *nix do provedor de acesso à Internet condominial do Centro Empresarial BarraShopping.
+**Cargo:** Analista de Suporte.  
+**Atividade:** Suporte aos sistemas *nix do provedor de acesso à Internet condominial do Centro Empresarial BarraShopping.  
 **Tecnologias Utilizadas:** Redes GNU/Linux, Squid, NetCAT, Vlans, MailServers, DNS. Suporte ao usuário. 
 
 ### Telemar – Desde dez/2003 até jan/2004.
-**Cargo:** Help-desk
-**Atividade:** Suporte a sistemas de monitoramento de URAs.
+**Cargo:** Help-desk  
+**Atividade:** Suporte a sistemas de monitoramento de URAs.  
 **Tecnologias Utilizadas:** Redes GNU/Linux, Squid, NetCAT, Vlans, MailServers, DNS. Suporte ao usuário. 
  
 ### DMG Equipamentos médicos - Desde set/2001 até out/2002.
-**Cargo:** Operador de computador.
-**Atividade:** Suporte ao usuário, cadastro de usuários na rede, Novel, configuração de sistemas DataFlex, banco de dados Oracle.
+**Cargo:** Operador de computador.  
+**Atividade:** Suporte ao usuário, cadastro de usuários na rede, Novel, configuração de sistemas DataFlex, banco de dados Oracle.  
 **Tecnologias Utilizadas:** Redes Linux, Squid, NetCAT, Vlans, MailServers, DNS. Suporte ao usuário. 
 
 ## Informações adicionais
 
-- Instrutor do curso de básico de administração Linux; instalação, configuração e comandos básicos,
-Estácio de Sá, quando a Estácio disponibilizava cursos de férias;
+- Instrutor do curso de básico de administração Linux: Instalação, configuração e comandos básicos. Curso era disponibilizado pela Universidade Estácio de Sá quando, época que era comum cursos de férias.
 
 ## Algumas certificações **não oficiais**:
 
