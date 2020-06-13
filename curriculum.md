@@ -55,7 +55,7 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ## Experiência profissional
 
-- Villa Fácil - Desde dez/2019 até momento* (sim, concomitante com Qconcursos).
+###  Villa Fácil - Desde dez/2019 até momento* (sim, concomitante com Qconcursos).
 
 **Cargo:** Analista de suporte infraestrutura.
 **Atividade:** Contratado para manutenção e suporte ao ambiente do sistema e suporte aos usuários.
