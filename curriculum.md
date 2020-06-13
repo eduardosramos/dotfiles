@@ -16,4 +16,24 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ## Skills
 
-Implantação de ferramentas de controle de qualidade e controle de projetos de software para equipes grandes e pequenas. Implantação de gestão de configuração, integração contínua e entrega contínua; 
+- Implantação de ferramentas de controle de qualidade e controle de projetos de software para equipes grandes e pequenas. Implantação de gestão de configuração, integração contínua e entrega contínua. 
+
+- **Cultura e práticas DevOps**;
+
+- Sólidos conhecimentos em sistemas operacionais (Windows, **GNU/Linux**);
+
+- LibreOffice; 
+
+- Servidores de aplicação (**JBoss, Wildfly, Websphere, Tomcat, OC4J**); 
+
+- Protocolos de comunicação (**Redes de computadores**); 
+
+- Bancos de dados (DB2, DB2/AS400, Oracle, SQL Server, MySQL, Firebird, DB2, PostgreSQL); 
+
+- Linguagem de programação (Python, Shell Script, Awk); 
+
+- Transformação de dados ETL (**Pentaho**, scripts python etc), **OpenRefine**;
+
+- Cloud Services (**Digital Ocean**, **AWS**);
+
+- Ferramentas de Integração Contínua (**GitLab CI**), Jira; testes unitários e integrados, Selenium, Cypress; ambiente cloud; microsserviços, containerização (Docker); Scraping e Web Crawler (Python); OpenRefine para tratamento de dados.
