@@ -57,21 +57,21 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ###  Villa Fácil - Desde dez/2019 até momento* (sim, concomitante com Qconcursos).
 
-**Cargo:** Analista de suporte infraestrutura.
-**Atividade:** Contratado para manutenção e suporte ao ambiente do sistema e suporte aos usuários.
+**Cargo:** Analista de suporte infraestrutura.  
+**Atividade:** Contratado para manutenção e suporte ao ambiente do sistema e suporte aos usuários.  
 **Tecnologia Utilizada:** Cloud Digital Ocean, Integrator, Mailgrid, GitBucket, Jira, Conteinerização Docker, ITSM, Glpi, ZenDesk.
 
 ### QConcursos - Desde jan/2018 até o momento.
-**Cargo:** Consultor.
+**Cargo:** Consultor.  
 **Atividade:**** No QConcursos, fui contratado para elaboração de estudos dirigidos para concursos na área de tecnologia. Atuei também no SAC por algumas semanas no atendimento ao cliente, fazendo uso da ferramenta Zendesk.
 
 ### Empreendedorismo - Desde jan/2015 nov/2019.
-**Área:** Treinamento Online.
+**Área:** Treinamento Online.  
 **Atividade:** Gostwriter para trabalhos acadêmicos e padronização ABNT. 
 
 ### Telvent (Schneider Electric) - Desde fev/2012 até abr/2014.
-**Cargo:** Netweaver Administrator SAP.
-**Atividade:** Na Schneider, participei da implantação do SAP no IRB Brasil Re desde suas primeiras pistas: Dev, QA, pré-prod e prod. 
+**Cargo:** Netweaver Administrator SAP.  
+**Atividade:** Na Schneider, participei da implantação do SAP no IRB Brasil Re desde suas primeiras pistas: Dev, QA, pré-prod e prod.   
 **Tecnologias Utilizadas:** Solman, ECC, BusinessObjects e metodologias e gerenciamento de projetos específicos para ambiente SAP. Aqui pude contribuir no suporte BASIS aos produtos SAP ECC, SAP BPC, SPP e BusinessObjects;
 
 ### Extend.Net Serviços de Informática LTDA - Desde jun/2007 até jan/2012.
