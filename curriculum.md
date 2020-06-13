@@ -22,18 +22,37 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 - Sólidos conhecimentos em sistemas operacionais (Windows, **GNU/Linux**);
 
-- LibreOffice; 
+- Pacote de escritório usando o software livre **LibreOffice**; 
 
-- Servidores de aplicação (**JBoss, Wildfly, Websphere, Tomcat, OC4J**); 
+- Servidores de aplicação (JBoss, Wildfly, Websphere e **Tomcat**); 
 
 - Protocolos de comunicação (**Redes de computadores**); 
 
-- Bancos de dados (DB2, DB2/AS400, Oracle, SQL Server, MySQL, Firebird, DB2, PostgreSQL); 
+- Bancos de dados (Oracle, **MySQL**, Firebird, DB2, PostgreSQL); 
 
-- Linguagem de programação (Python, Shell Script, Awk); 
+- Linguagem de programação (**Python**, Shell Script, Awk);
+
+- **Web Crawler e Scraping**; 
 
 - Transformação de dados ETL (**Pentaho**, scripts python etc), **OpenRefine**;
 
-- Cloud Services (**Digital Ocean**, **AWS**);
+- Cloud Services (**Digital Ocean** **AWS**);
 
-- Ferramentas de Integração Contínua (**GitLab CI**), Jira; testes unitários e integrados, Selenium, Cypress; ambiente cloud; microsserviços, containerização (Docker); Scraping e Web Crawler (Python); OpenRefine para tratamento de dados.
+- Ferramentas de Integração Contínua (**GitLab CI**), Jira, Bug tracker usando **Mantis**; 
+
+- Teste automatizado usando **Selenium** ou **Cypress**; 
+
+- Microsserviços, containerização (**Docker**); 
+
+## Idiomas
+
+- Inglês intermediário (pouca fala e boa leitura)
+
+## Formação acadêmica
+
+- Graduação em Ciência da computação (Não conculuído); Rede de computadores (não concluído). Direito **concluído**.
+
+## Experiência profissional
+
+
+
