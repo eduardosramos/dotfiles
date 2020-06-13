@@ -9,10 +9,11 @@ e-mail: info.****@gmail.com
 
 ## Quem sou eu:
 
-Me chamo Eduardo, atuo na área de tecnologia com, experiência profissional em suporte e infraestrutura tecnológica like-unix, e atuei em diversas empresas, dentre as quais na área de saúde, telecomunicações, uma fábrica de software, energia e autarquia Federal (INPI); participei de implantação do ambiente ERP SAP no IRB Brasil, em 2010 atuando como analista pleno. 
+Por mais de 18 anos, Atuo na área de tecnologia com foco profissional em infraestrutura tecnológica like-unix.  
+Atuei em diversas empresas, dentre as quais na área de saúde, telecomunicações, fábrica de software, energia e autarquia Federal (INPI); participei de implantação do ambiente ERP SAP no IRB Brasil. 
 
-Possuo ótima capacidade de comunicação, sou participativo. Trago uma personalidade autodidata e isso me faz buscar coisas novas a todo momento para resolver a rotina diária da operação.  Adoro aprender.
+Possuo ótima capacidade de comunicação, sou participativo. Trago uma personalidade autodidata e isso me faz buscar novos saberes a todo momento para sanar problemas do dia a dia. Amo ler e adoro aprender.
 
 ## Skills
 
-Implantação de ferramentas de controle de qualidade e controle de projetos de software para equipes grandes e pequenas. Implantação de gestão de configuração, integração contínua e entrega contínua;
+Implantação de ferramentas de controle de qualidade e controle de projetos de software para equipes grandes e pequenas. Implantação de gestão de configuração, integração contínua e entrega contínua; 
