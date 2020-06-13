@@ -58,7 +58,9 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 ###  Villa Fácil - Desde dez/2019 até momento* (sim, concomitante com Qconcursos).
 
 **Cargo:** Analista de suporte infraestrutura.
+
 **Atividade:** Contratado para manutenção e suporte ao ambiente do sistema e suporte aos usuários.
+
 **Tecnologia Utilizada:** Cloud Digital Ocean, Integrator, Mailgrid, GitBucket, Jira, Conteinerização Docker, ITSM, Glpi, ZenDesk.
 
 - QConcursos - Desde jan/2018 até o momento.
