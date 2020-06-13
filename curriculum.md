@@ -14,7 +14,6 @@ Por mais de 18 anos, Atuo na área de tecnologia com foco profissional em infrae
 Atuei em diversas empresas, dentre as quais na área de saúde, telecomunicações, fábrica de software, energia e autarquia Federal (INPI); participei de implantação do ambiente ERP SAP no IRB Brasil. 
 
 Possuo ótima capacidade de comunicação, sou participativo. Trago uma personalidade autodidata e isso me faz buscar novos saberes a todo momento para sanar problemas do dia a dia. Amo ler e adoro aprender.
-</div>
 
 ## Skills
 
@@ -57,4 +56,5 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 ## Experiência profissional
 
 
+</div>
 
