@@ -1,11 +1,11 @@
 # Eduardo da Silva Ramos
 
-Brasileiro, Casado, 45 anos, dois filhos.
-Avenida d M, 1, bl apto, T, RJ.
-CEP: 20-00.
+Brasileiro, Casado, 45 anos.
+End:
+CEP: 22720-400.
 
-Celular (Whats): (21) 9-1313
-e-mail: info.****@gmail.com
+Celular (Whats): (21) 9-96434-1313
+e-mail: info.eduardoramos@gmail.com
 
 ## Quem sou eu:
 
@@ -57,14 +57,14 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ## Experiência profissional
 
-###  Villa Fácil - Desde dez/2019 até momento* (sim, concomitante com Qconcursos).
+###  Villa Fácil - Desde dez/2019 até momento*.
 
 **Cargo:** Analista de suporte infraestrutura.  
 **Atividade:** Contratado para manutenção e suporte ao ambiente do sistema e suporte aos usuários.  
 **Tecnologia Utilizada:** Cloud Digital Ocean, Integrator, Mailgrid, GitBucket, Jira, Conteinerização Docker, ITSM, Glpi, ZenDesk.
 
-### QConcursos - Desde jan/2018 até o momento.
-**Cargo:** Consultor.  
+### QConcursos - Desde jan/2018.
+**Cargo:** Consultor acadêmico. 
 **Atividade:**** No QConcursos, fui contratado para elaboração de estudos dirigidos para concursos na área de tecnologia. Atuei também no SAC por algumas semanas no atendimento ao cliente, fazendo uso da ferramenta Zendesk.
 
 ### Empreendedorismo - Desde jan/2015 nov/2019.
