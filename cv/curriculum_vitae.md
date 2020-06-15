@@ -69,7 +69,7 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ### Empreendedorismo - Desde jan/2015 nov/2019.
 **Área:** Treinamento Online.  
-**Atividade:** Gostwriter para trabalhos acadêmicos e padronização ABNT. 
+**Atividade:** Ghostwritter para trabalhos acadêmicos e padronização ABNT. 
 
 ### Telvent (Schneider Electric) - Desde fev/2012 até abr/2014.
 **Cargo:** Netweaver Administrator SAP.  
