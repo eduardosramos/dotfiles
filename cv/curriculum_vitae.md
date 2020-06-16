@@ -3,9 +3,9 @@
 Nacionalidade: Brasileira.  
 Estado Civil: Casado.   
 Idade: 45 anos.   
-Pai de dois filhos.
+Pai de dois filhos.  
 End:  
-CEP: 22720-400. 
+CEP: 22720-400
 
 Celular (Whats): (21) 9-96434-1313  
 e-mail: info.eduardoramos@gmail.com  
