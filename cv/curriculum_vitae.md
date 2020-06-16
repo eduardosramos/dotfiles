@@ -118,11 +118,11 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 - Python Web Scraping (Udemy);
 
-- ISO 27001: Curso completo para certificação EXIN ISFS _Em andamento_ ;
+- ISO 27001: Curso completo para certificação EXIN ISFS (Udemy) _Em andamento_ ;
 
 - Docker do zero: Introdução à administração de Contêineres (Udemy);
 
-- Descomplicando Docker, LinuxTips;
+- Descomplicando Docker (LinuxTips);
 
 - Gerenciamento de projetos ágeis com Scrum (Caelum);
 
