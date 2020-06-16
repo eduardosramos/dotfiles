@@ -112,9 +112,11 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ## Algumas certificações **não oficiais**:
 
-- Python para todos;
+- Banco de dados e SQL (Udemy) _Em andamento_
 
-- Python Web Scraping;
+- Python para todos (Udemy);
+
+- Python Web Scraping (Udemy);
 
 - ISO 27001: Curso completo para certificação EXIN ISFS (Em andamento);
 
@@ -126,14 +128,10 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 - PMBOK Avançado (ProjectLab);
 
-- Fundamentos em gerenciamento de projetos (ProjectLab);
+- Fundamentos em Gerenciamento de Projetos (ProjectLab);
 
 - SAP Productivity Package (Administrator) GPLUX;
 
-- SAP Productivity Package (Autor).
+- SAP Productivity Package (Autor).  
 
-
-> Há inúmeros outros cursos e participações que foram suprimidos para dar lugar as informações mais importantes.
-
-
-
+> Há inúmeros outros cursos e participações que foram suprimidos para dar lugar as informações mais importantes.  
