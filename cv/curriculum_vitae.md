@@ -13,9 +13,7 @@ e-mail: info.eduardoramos@gmail.com
 ## Quem sou eu:
 
 <div style="text-align: justify">
-A cerca de aproximadamente 18 anos atuo na área de tecnologia com foco profissional em infraestrutura tecnológica predominantemente like-unix (Solaris, AIX e GNU/Linux).    
-    
-Atuei em diversas empresas, dentre as quais na área de saúde, telecomunicações, fábrica de software, energia e autarquia Federal (INPI); participei de implantação do ambiente ERP/SAP no IRB Brasil.    
+A cerca de aproximadamente 18 anos atuo na área de tecnologia com foco profissional em infraestrutura tecnológica predominantemente like-unix (Solaris, AIX e GNU/Linux) e, ao longo do meu processo de evolução na área, pude fazer parte de da área de suporte a TI em diversas empresas, dentre as quais na área de saúde, telecomunicações, fábrica de software, energia e autarquia Federal (INPI); participei, também, da implantação e suporte do ERP/SAP no IRB Brasil.    
     
 Possuo ótima capacidade de comunicação, sou participativo. Trago uma personalidade autodidata e isso me faz buscar novos saberes a todo momento para sanar problemas do dia a dia. Amo ler e adoro aprender.
 </div>
