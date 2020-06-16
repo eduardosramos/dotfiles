@@ -112,17 +112,17 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 ## Algumas certificações **não oficiais**:
 
-- Banco de dados e SQL (Udemy) _Em andamento_
+- Banco de dados e SQL (Udemy) _Em andamento_;
 
 - Python para todos (Udemy);
 
 - Python Web Scraping (Udemy);
 
-- ISO 27001: Curso completo para certificação EXIN ISFS (Em andamento);
+- ISO 27001: Curso completo para certificação EXIN ISFS _Em andamento_ ;
 
 - Docker do zero: Introdução à administração de Contêineres (Udemy);
 
-- Descomplicando Docker, LinuxTips (Concluído);
+- Descomplicando Docker, LinuxTips;
 
 - Gerenciamento de projetos ágeis com Scrum (Caelum);
 
@@ -132,6 +132,6 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 - SAP Productivity Package (Administrator) GPLUX;
 
-- SAP Productivity Package (Autor).  
+- SAP Productivity Package (Autor) GPLUX.  
 
 > Há inúmeros outros cursos e participações que foram suprimidos para dar lugar as informações mais importantes.  
