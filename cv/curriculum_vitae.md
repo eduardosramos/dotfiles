@@ -1,12 +1,12 @@
 # Eduardo da Silva Ramos
 
-Brasileiro, Casado, 45 anos.
-End:
-CEP: 22720-400.
+Nacionalidade: Brasileira. Estado Civil: Casado. Idade: 45 anos. Pai de dois filhos.
+End:  
+CEP: 22720-400. 
 
-Celular (Whats): (21) 9-96434-1313
-e-mail: info.eduardoramos@gmail.com
-
+Celular (Whats): (21) 9-96434-1313  
+e-mail: info.eduardoramos@gmail.com  
+  
 ## Quem sou eu:
 
 <div style="text-align: justify">
