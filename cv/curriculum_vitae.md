@@ -8,7 +8,7 @@ End:
 CEP: 22720-400
 
 Celular (Whats): (21) 9-96434-1313  
-e-mail: info.eduardoramos@gmail.com  
+e-mail: info.eduardoramos@gmail.com | eduardodasilvaramos@outlook.com  
   
 ## Quem sou eu:
 
