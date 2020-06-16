@@ -58,7 +58,7 @@ Possuo ótima capacidade de comunicação, sou participativo. Trago uma personal
 
 - Graduação em Ciência da computação (Não conculuído); Rede de computadores (não concluído). Direito **concluído**.  
 
-<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8321500H5"> Meu Curriculum Lattes</a>
+[Meu curriculum Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8321500H5)
 
 ## Experiência profissional
 
