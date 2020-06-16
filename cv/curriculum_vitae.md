@@ -1,6 +1,9 @@
 # Eduardo da Silva Ramos
 
-Nacionalidade: Brasileira. Estado Civil: Casado. Idade: 45 anos. Pai de dois filhos.
+Nacionalidade: Brasileira.  
+Estado Civil: Casado.   
+Idade: 45 anos.   
+Pai de dois filhos.
 End:  
 CEP: 22720-400. 
 
