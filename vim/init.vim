@@ -61,10 +61,7 @@ endif
 " Now the actual plugins:
 
 " multiple-cursors
-" Retirei por dar problemas...
-" Plug 'terryma/vim-multiple-cursors'
-
-
+Plug 'terryma/vim-multiple-cursors'
 " Override configs by directory
 Plug 'arielrossanigo/dir-configs-override.vim'
 " Code commenter
@@ -134,9 +131,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 " Yank history navigation
 Plug 'vim-scripts/YankRing.vim'
+
 " A Vim Plugin for Lively Previewing LaTeX PDF Output
 Plug 'xuhdev/vim-latex-live-preview'
-" donRaphaco/neotex
+
 Plug 'donRaphaco/neotex', { 'for': 'tex' }
 " Linters
 Plug 'neomake/neomake'
@@ -148,12 +146,13 @@ Plug 'neomake/neomake'
 Plug 'myusuf3/numbers.vim'
 " Nice icons in the file explorer and file type status line.
 Plug 'ryanoasis/vim-devicons'
+
 " Plugin python
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
-" Preview
+
+Plug 'ctrlpvim/ctrlp.vim'
+
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-" An ack.vim alternative mimics Ctrl-Shift-F on Sublime Text 2
-Plug 'dyng/ctrlsf.vim'
 
 if using_vim
     " Consoles as buffers (neovim has its own consoles as buffers)
@@ -173,16 +172,10 @@ call plug#end()
 " ============================================================================
 " Install plugins the first time vim runs
 
-" https://github.com/dyng/ctrlsf.vim
+" https://medium.com/@jimeno0/search-in-files-and-content-in-vim-neovim-8c1bf74ad5e9
 nmap     <C-F>f <Plug>CtrlSFPrompt
-vmap     <C-F>f <Plug>CtrlSFVwordPath
-vmap     <C-F>F <Plug>CtrlSFVwordExec
 nmap     <C-F>n <Plug>CtrlSFCwordPath
 nmap     <C-F>p <Plug>CtrlSFPwordPath
-nnoremap <C-F>o :CtrlSFOpen<CR>
-nnoremap <C-F>t :CtrlSFToggle<CR>
-inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
-
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] "Hide files in .gitignore
 let g:ctrlp_show_hidden = 1                                                         "Show dotfiles
