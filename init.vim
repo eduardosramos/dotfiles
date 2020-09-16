@@ -1,3 +1,4 @@
+" Teste
 " Fisa-vim-config, a config for both Vim and NeoVim
 " http://vim.fisadev.com
 " version: 12.0.0
