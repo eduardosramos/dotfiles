@@ -58,7 +58,20 @@
 (global-set-key (kbd "M-<up>") 'shrink-window)
 (global-set-key (kbd "M-<left>") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-<right>") 'shrink-window-horizontally)
+
+;; Desfaz
 (global-set-key (kbd "C-z") 'undo)
+
+;; Converte em maiúsculas
+;; (global-set-key (kbd "C-u") 'upcase-region)
+
+;; Converte em minúsculas
+(global-set-key (kbd "C-d") 'downcase-region)
+
+;; Seleciona todo o texto (control+a)
+(global-set-key (kbd "C-a") 'mark-whole-buffer)
+
+
 
 ;; (global-set-key (kbd "C-s") 'save-buffer)
 ;; Verificando syntax
@@ -67,6 +80,10 @@
   :init (global-flycheck-mode t))
 
 (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc))
+
+(use-package rebecca-theme
+  :ensure t
+  :config (load-theme 'rebecca t))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -78,22 +95,19 @@
  '(ansi-color-names-vector
    (vector "#2d2d2d" "#f2777a" "#99cc99" "#ffcc66" "#6699cc" "#cc99cc" "#66cccc" "#cccccc"))
  '(beacon-color "#f2777a")
- '(csv-separators (quote (";" "	")))
- '(custom-enabled-themes (quote (rebecca)))
+ '(csv-separators '(";" "	"))
+ '(custom-enabled-themes '(rebecca))
  '(custom-safe-themes
-   (quote
-    ("e208e45345b91e391fa66ce028e2b30a6aa82a37da8aa988c3f3c011a15baa22" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" default)))
+   '("e208e45345b91e391fa66ce028e2b30a6aa82a37da8aa988c3f3c011a15baa22" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" default))
  '(fci-rule-color "#515151")
- '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
- '(frame-background-mode (quote dark))
+ '(flycheck-color-mode-line-face-to-color 'mode-line-buffer-id)
+ '(frame-background-mode 'dark)
  '(package-selected-packages
-   (quote
-    (live-py-mode rebecca-theme pdf-view-restore pdfgrep pdf-tools csv-mode ergoemacs-mode neotree auto-complete which-key try use-package)))
- '(send-mail-function (quote mailclient-send-it))
+   '(live-py-mode rebecca-theme pdf-view-restore pdfgrep pdf-tools csv-mode ergoemacs-mode neotree auto-complete which-key try use-package))
+ '(send-mail-function 'mailclient-send-it)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
-   (quote
-    ((20 . "#f2777a")
+   '((20 . "#f2777a")
      (40 . "#f99157")
      (60 . "#ffcc66")
      (80 . "#99cc99")
@@ -110,7 +124,7 @@
      (300 . "#f2777a")
      (320 . "#f99157")
      (340 . "#ffcc66")
-     (360 . "#99cc99"))))
+     (360 . "#99cc99")))
  '(vc-annotate-very-old-color nil)
  '(window-divider-mode nil))
 (custom-set-faces
@@ -119,3 +133,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
